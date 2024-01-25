@@ -2,11 +2,25 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>starter code</title>
+<title>Food Form</title>
 <link rel="stylesheet" type="text/css" href="site.css">
 </head>
 <body>
-<h2>starter project</h2>
+<h2>Track Calories</h2>
+
+<form id="foodForm">
+    <label for="nameInput">Food Name:</label>
+    <input type="text" id="nameInput" />
+    <label for="caloriesInput">Number of Calories:</label>
+    <input type="text" id="caloriesInput" />
+    <input type="submit" id="submitButton" value="Submit" />
+</form>
+
+<form id="resultForm">
+    <label for="resultInput">Total Calories</label>
+    <input type="text" id="resultInput" />
+</form>
+
 <script src="main.js"></script>
 </body>
 </html>
