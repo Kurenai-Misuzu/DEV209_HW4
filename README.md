@@ -28,3 +28,6 @@ When creating a new food object, calories are converted to a number using the fo
 
 ```javascript
 this.calories = parseInt(pCalories);
+
+
+Did my homework
